@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is the module 2 assignment!</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+      .full-container {
+          
+          overflow: hidden;
+          border: 3px solid red;
+         
+        
+          
+      }
+
+      div p{
+          border: 2px solid black;
+      }
+
+
+      h1{
+          text-align: center;
+      }
+
+
+
+      @media(min-width:992px){
+
+     
+
+      div{
+        left: -50%;
+        text-align: left;
+        position: relative;
+      }
+
+      div p{
+        border: 2px solid black;
+        background-color: lightgreen;
+        width: 25%;
+        float: right;
+        margin: 20px;
+        padding: 20px;
+        position: relative;
+        left: 90%;
+        
+     
+      }
+
+      h1{
+          text-align: center;
+      }
+
+
+   
+      
+    }
+
+      
+
+      @media (min-width: 768px) and (max-width: 991px){
+
+       .full-container{
+           width: 90%;
+          margin: auto;
+
+           
+        }
+
+        div p{
+            background-color: cyan;
+            float: left;
+            width: 35%;
+            padding: 30px;
+            margin-left: 60px;
+            margin-right: 10px;
+            
+       
+
+        }
+        .col-lg-3{
+            clear: left;
+            width: 220%;
+
+
+        }
+       
+           
+         
+        
+
+
+
+        
+      }
+
+      @media ( max-width: 767px) {
+          
+        .full-container{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            clear: both;
+        }
+        
+        
+        div p{
+             
+              width: 60%;
+              float: none;
+              margin-left: 20%;
+              margin: auto;
+              margin-bottom: 10px;
+              background-color: darksalmon;
+              padding: 20px;
+          }
+      }
+
+
+
+      
+
+     
+
+
+     
+    
+    </style>
+</head>
+<body>
+
+    
+    <section class="full-container">
+    <div class="container">
+        <h1>Our menu</h1>
+        <div class="col-lg-1 col-md-1">
+        
+        <p>Lorem 1 ipsum dolor sit amet 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam modi impedit mollitia doloribus ducimus natus culpa repellat, nobis quaerat iusto blanditiis beatae ipsum a, commodi repellendus consectetur necessitatibus, eveniet incidunt voluptatibus inventore praesentium consequuntur.
+            consectetur adipisicing elit. Placeat nobis sint blanditiis. Doloribus, voluptatum necessitatibus this is the paragraph 
+            from which i want to learn how to mke 
+        </p></div>
+
+        <div class="col-lg-2 col-md-2">
+            
+        <p>
+            Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Placeat no
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident blanditiis consequatur, tempore, ipsum ipsa eos possimus laboriosam, sed sapiente minima facere! Maiores dignissimos eos perspiciatis velit nulla fugit voluptas quam, facilis, enim, id possimus?
+            bis sint blanditiis. Doloribus, voluptatum necessitatibus similique architecto nihil dolorum numquam temporibus quod, debitis, ex beatae veritatis ab molestiae 
+        </p></div>
+
+            <div class="col-lg-3 col-md-3">
+            <p>Lorem 3ipsum dolor sit amet 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero odio alias.
+                 In iusto id laborum neque fugit nesciunt vitae harum voluptas error cupiditate. Mod
+                 i velit expedita tempore, molestias maiores sapiente pariatur beatae minima!consectetur a
+                 dipisicing elit. Placeat nobis sint blanditiis. Doloribus, voluptatum necessitatibus similique architecto n
+                 ihil dolorum numquam temporibus quod, debitis, ex beatae veritatis ab molestiae doloremque repudiandae
+         </p></div>
+        
+
+    </div>
+
+</section>
+    
+</body>
+</html>
